@@ -4,5 +4,5 @@ This repository tracks my progress as I solve Data Structures and Algorithms (DS
 
 ## 🚀 Goals:
 - [ ] Complete Striver A to Z DSA-sheet.
-- [ ] Consistently solve 3-4 problems daily.
+- [ ] Complete CSES problem set
       
