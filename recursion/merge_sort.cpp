@@ -1,5 +1,6 @@
 //merge sort...still need practice
-
+//time complexity= O(nlogn)
+//space complexity= O(n)
 #include <bits/stdc++.h>
 using namespace std;
 
