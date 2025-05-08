@@ -1,10 +1,11 @@
 //quickSort (cram the algo ;)
+//tc= O(nlogn)
+//sc= O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
 
 //for partitioning array so that all ele smaller than the pivot are at left to pivot and all ele larger than pivot are at right to pivot. 
-
 int f(vector<int> &arr, int low,int high){
     int i=low;
     int j=high;
