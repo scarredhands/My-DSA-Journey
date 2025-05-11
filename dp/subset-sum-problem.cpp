@@ -1,10 +1,11 @@
-//{ Driver Code Starts
+
+//https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
 
 #include <bits/stdc++.h>
 using namespace std;
 
 
-// } Driver Code Ends
+
 
 class Solution {
   public:
@@ -33,7 +34,7 @@ class Solution {
 };
 
 
-//{ Driver Code Starts.
+
 
 int main() {
 
@@ -63,4 +64,3 @@ int main() {
     return 0;
 }
 
-// } Driver Code Ends
