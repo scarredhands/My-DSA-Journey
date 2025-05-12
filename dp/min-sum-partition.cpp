@@ -1,10 +1,11 @@
 //https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1
 
+//{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
 
 
-
+// } Driver Code Ends
 
 class Solution {
 
@@ -16,9 +17,7 @@ class Solution {
             sum+=it;
         }
         vector<vector<bool>> dp(n+1,vector<bool>(sum+1,false));
-        for(int i=0;i<n+1;++i){
-            dp[i][0]=true;
-        }
+        dp[0][0]=true;
         for(int i=1;i<=n;++i){
             for(int j=0;j<=sum;++j){
                 if(arr[i-1]>j){
@@ -41,7 +40,7 @@ class Solution {
 
 
 
-
+//{ Driver Code Starts.
 int main() {
     string ts;
     getline(cin, ts);
@@ -65,3 +64,4 @@ int main() {
     }
     return 0;
 }
+// } Driver Code Ends
