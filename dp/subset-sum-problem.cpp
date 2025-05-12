@@ -12,12 +12,7 @@ class Solution {
     bool isSubsetSum(vector<int>& arr, int sum) {
         vector<vector<bool>> dp(arr.size()+1,vector<bool>(sum+1,false));
         
-            for(int i=0;i<arr.size()+1;i++){
-                
-                    dp[i][0]=true;
-                
-            }
-        
+       dp[0][0]=true;        
         for(int i=1;i<arr.size()+1;i++){
             for(int j=0;j<=sum;++j){
                 if(arr[i-1]>j){
