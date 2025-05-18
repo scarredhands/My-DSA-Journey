@@ -1,5 +1,7 @@
 //https://leetcode.com/problems/triangle/
 
+// a hack is used here - instead of going from top to bottom you can go from bottom to top. keep this in mind
+
 class Solution {
 public:
   int minPath(vector<vector<int>> & triangle,int n,int j){
