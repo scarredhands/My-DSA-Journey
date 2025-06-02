@@ -1,7 +1,8 @@
 //https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1
 //min-spanning-tree sum
 //prim's algo
-
+// tc= O(ElogE)
+//sc= O(E)
 
 class Solution {
   public:
