@@ -35,7 +35,7 @@ class DisjointSet{
         }
         else{
             parent[ulp_v]=ulp_u;
-            rank[ulp_v]++;
+            rank[ulp_u]++;
         }
     }
     };
