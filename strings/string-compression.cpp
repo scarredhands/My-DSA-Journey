@@ -1,5 +1,6 @@
 //https://leetcode.com/problems/string-compression/
 //tc= O(N)
+//sc= O(1)
 //its like 3 pointers problem
 
 class Solution {
