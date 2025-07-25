@@ -5,4 +5,7 @@ This repository tracks my progress as I solve Data Structures and Algorithms (DS
 ## 🚀 Goals:
 - [ ] Complete Striver A to Z DSA-sheet.
 - [ ] Complete CSES problem set..
+
+## Links to a wonderful repo consisting of company-wise problems- 
+https://github.com/hxu296/leetcode-company-wise-problems-2022?tab=readme-ov-file#atlassian
       
